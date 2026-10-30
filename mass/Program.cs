@@ -1,6 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
-
-//int[] mas1 = new int[5];
+﻿//int[] mas1 = new int[5];
 //int[] mas2 = { 1, 4, 2, 9, 3 };
 //int[] mas3 = mas2;
 //mas3[3] = 12;
@@ -331,3 +329,44 @@
 //{
 //    Console.WriteLine(e.Message);
 //}
+
+//int[] a = new int[5];
+//Random r = new Random();
+//for (int i = 0; i < a.Length; i++)
+//{
+//    a[i] = r.Next(1, 10);
+//    Console.Write(a[i] + " ");
+//}
+//Console.WriteLine();
+////Array.Clear(a);
+////for(int i = 0;i < a.Length;i++)
+////{
+////    Console.Write(a[i] + " ");
+
+////}
+////Console.WriteLine();
+//int[] b = new int[5];
+//a.CopyTo(b);
+//Array.Clear(a);
+//for (int i = 0; i < a.Length; i++)
+//{
+//    Console.Write(b[i] + " ");
+
+//}
+//Console.WriteLine();
+//Array.Sort(b);
+//for (int i = 0; i < a.Length; i++)
+//{
+//    Console.Write(b[i] + " ");
+
+//}
+//Console.WriteLine();
+
+//using System.Text.RegularExpressions;
+
+//string s = "456-432-2318";
+//string pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}$";
+
+//if(Regex.IsMatch(s,pattern,RegexOptions.IgnoreCase))
+//    Console.WriteLine("OK");
+//else Console.WriteLine("NO");
